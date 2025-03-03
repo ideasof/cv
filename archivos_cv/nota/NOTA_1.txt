@@ -5,3 +5,6 @@
 2.-(03-marzo-2025)[01:29 AM]{
     *Se agrego nueva info.
 }
+3.-(03-marzo-2025)[01:52 AM]{
+    *Se agrego la funcionalidad de registrar las consultas a la pagina.
+}
