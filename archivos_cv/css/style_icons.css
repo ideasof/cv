@@ -1,0 +1,63 @@
+#js {
+    width: 40px;
+    height: 40px;
+}
+
+#html {
+    width: 45px;
+    height: 45px;
+}
+
+#css {
+    width: 45px;
+    height: 45px;
+}
+
+#react {
+    width: 40px;
+    height: 40px;
+}
+
+#laravel {
+    width: 50px;
+    height: 50px;
+}
+
+#mysql {
+    width: 50px;
+    height: 50px;
+}
+
+#git {
+    width: 40px;
+    height: 40px;
+}
+
+#verilog {
+    width: 50px;
+    height: 50px;
+}
+
+#vhdl {
+    width: 50px;
+    height: 50px;
+}
+
+.tecnologias {
+    width: 20px;
+    height: 20px;
+}
+
+.implement {
+    color: blue;
+    margin-top: 10px;
+}
+
+.img-swA2 {
+    width: 75px;
+    margin-bottom: 14px;
+}
+
+.img-swA2-v02 {
+    width: 70px;
+}

@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+a>svg,
+a>svg>path,
+a>svg>rect,
+a>svg>circle {
+    cursor: pointer;
+}
+
+.contenedor-main {
+    text-align: center;
+    height: 100vh;
+    display: -webkit-box;
+    position: fixed;
+}
+
+.myimg {
+    width: 64vw;
+    opacity: 0.3;
+}
+
+.izq {
+    height: 100vh;
+    width: 18vw;
+    background-image: linear-gradient(to right, rgb(0, 4, 255), rgb(0, 4, 255) 10%, rgb(255 255 255) 95%);
+    opacity: 0.3;
+}
+
+.der {
+    height: 100vh;
+    width: 18vw;
+    background-image: linear-gradient(to left, rgb(0, 4, 255), rgb(0, 4, 255) 10%, rgb(255 255 255) 95%);
+    opacity: 0.3;
+}
+
+.contenedor-img {
+    align-content: center;
+}
+
+.myheader {
+    /* position: absolute; */
+    margin-left: 18vw;
+    margin-right: 18vw;
+    width: 64vw;
+    display: inline-flex;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.imagen-y-social {
+    /* background-color: green; */
+    padding: 20px;
+}
+
+.imagen-perfil {
+    width: 150px;
+    border-radius: 30px;
+    border: thick double #0004FF;
+}
+
+.datos {
+    margin-left: 90px;
+    text-align: center;
+}
+
+.nombre {
+    text-align: center;
+    color: #0000FF;
+}
+
+#email {
+    cursor: text;
+    width: 230px;
+    text-align: center;
+    background-color: #DFE0FF;
+    border-radius: 10px;
+    border: 2px solid #9193FF;
+}
+
+.focus {
+    font-weight: bold;
+}
+
+.descripcion {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: large;
+}
+
+.contenedor-email {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sub1 {
+    display: flex;
+}
+
+.msg {
+    border: 2px solid #000000;
+    border-radius: 5px;
+    width: 82px;
+    background-color: #818181;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.ocultar {
+    visibility: hidden;
+}
+
+.contenedor-cv {
+    display: flex;
+    margin-top: 5px;
+}
+
+.sociales {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido {
+    position: absolute;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    width: 64vw;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    height: 1px;
+    width: 100%;
+    background-color: #3D3D3D;
+}
+
+.proyectos {
+    width: 64vw;
+    margin-bottom: 30px;
+}
+
+.concepto {
+    font-size: xx-large;
+    color: #5A5A5A;
+    margin-top: 15px;
+}
+
+.proyecto {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #C2C4FF;
+    border-radius: 16px;
+    padding: 20px;
+    background-color: transparent;
+}
+
+/* .proyecto:hover{
+background-color: #DFE0FF;
+cursor: pointer;
+} */
+.proyecto-titulo {
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+.proyecto-imagen {
+    width: 40%;
+}
+
+.proyecto-descripcion {
+    color: #7B7B7B;
+    background-color: #FFFFFF;
+}
+
+.proyecto-datos {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.habilidades {
+    width: 64vw;
+}
+
+/* footer{
+background-image: linear-gradient(90deg, blue 15%, black 48%, blue 80%);
+} */
+.myfooter {
+    background-color: #000000;
+    width: 100vw;
+    font-size: smaller;
+    padding: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contenedor-h {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.categoria-titulo {
+    color: #7B80FF;
+    font-size: large;
+}
+
+.icons {
+    margin-left: 20px;
+}
+
+.classTextValue {
+    font-size: 8px;
+    fill: #000000;
+    text-anchor: middle;
+    font-family: fantasy;
+    font-style: normal;
+    font-weight: 400;
+    pointer-events: none;
+}
+
+.lenguaje-c {
+    font-size: xxx-large;
+    color: #7B7B7B;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+#forPDF {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+
+    .myheader {
+        display: inline-block;
+    }
+
+    .datos {
+        margin-left: 0px;
+    }
+
+    .contenedor-h {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .proyecto-titulo {
+        font-size: large;
+        margin-bottom: 8px;
+    }
+
+    .proyecto-datos {
+        margin-left: 8px;
+        margin-right: 8px;
+        font-size: 11px;
+    }
+}
