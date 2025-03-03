@@ -8,3 +8,6 @@
 3.-(03-marzo-2025)[01:52 AM]{
     *Se agrego la funcionalidad de registrar las consultas a la pagina.
 }
+4.-(03-marzo-2025)[01:04 PM]{
+    *Se extrajeron las imagenes SVG para reducir codigo HTML.
+}
