@@ -1,7 +1,7 @@
-1.-(02-marzo-2024)[11:45 PM]{
+1.-(02-marzo-2025)[11:45 PM]{
     *Trasladamos el formato del CV a un proyecto con control visiones
     para irlo perfeccionando conforme pasa la historia.
 }
-2.-(03-marzo-2024)[01:29 AM]{
+2.-(03-marzo-2025)[01:29 AM]{
     *Se agrego nueva info.
 }
