@@ -2,3 +2,6 @@
     *Trasladamos el formato del CV a un proyecto con control visiones
     para irlo perfeccionando conforme pasa la historia.
 }
+2.-(03-marzo-2024)[01:29 AM]{
+    *Se agrego nueva info.
+}
