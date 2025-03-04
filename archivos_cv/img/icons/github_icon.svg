@@ -1,4 +1,13 @@
-<svg onmouseover="setAttribute('fill','#0000FF');" onmouseout="setAttribute('fill','#000000');" fill="#000000" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" style="cursor: pointer;">
+<svg 
+    viewBox="0 0 32 32" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="#000000" 
+    onmouseover="setAttribute('fill','#0000FF');" 
+    onmouseout="setAttribute('fill','#000000');" 
+    style="cursor: pointer;"
+    onclick="window.open('https://github.com/ideasof','_blank');"
+    version="1.1" 
+    >
     <title>github</title>
     <circle cx="50%" cy="50%" r="48%" fill="#ffffff" opacity="0" />
     <path
