@@ -11,3 +11,6 @@
 4.-(03-marzo-2025)[01:04 PM]{
     *Se extrajeron las imagenes SVG para reducir codigo HTML.
 }
+5.-(03-marzo-2025)[08:59 PM]{
+    *Se agregaron habilidades.
+}
