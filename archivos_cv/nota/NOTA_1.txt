@@ -14,3 +14,13 @@
 5.-(03-marzo-2025)[08:59 PM]{
     *Se agregaron habilidades.
 }
+6.-(25-marzo-2025)[10:40 AM]{
+    *Se modifico la fecha de nacimiento y algunos esilos del formato PDF.
+}
+7.-(25-marzo-2025)[11:00 AM]{
+    *Se agrega el boton para descargar el PDF desde el cel.
+    IMPORTANTE: Cuando se actualiza el PDF del archivo estatico,
+    se devera cambiar el enlace de la funcion "downloadPDF_desde_archivo()"
+    en el archivo "archivos_cv/js/app.js" para que se descargue la version
+    modificada.
+}
