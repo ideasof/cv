@@ -24,3 +24,7 @@
     en el archivo "archivos_cv/js/app.js" para que se descargue la version
     modificada.
 }
+7.-(27-marzo-2025)[03:22 PM]{
+    *Se elimina la descripcion de Certificados en la seccion
+    de Formación
+}

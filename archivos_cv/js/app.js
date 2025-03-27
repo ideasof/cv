@@ -76,7 +76,7 @@ function imprimirHere(html){
 
 function downloadPDF_desde_archivo(){
   const link = document.createElement('a');
-  link.href = '/archivos_cv/nota/versiones/CV de Gustavo Chairez_v03.pdf';
+  link.href = '/archivos_cv/nota/versiones/CV de Gustavo Chairez_v04.pdf';
   link.download = 'CV de Gustavo Chairez.pdf'; // Nombre del archivo descargado
   link.click();
 }
